@@ -17,7 +17,7 @@ def funcao_polinomial(ax):
     a = random.uniform(0.8, 1.5)
     b = random.uniform(-120, -80)   
     c = random.uniform(-5000, 5000)
-    x_max = random.radiant (0, 500)
+    x_max = random.randint (0, 500)
 
     intensidade = []
     danos = []
